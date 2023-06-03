@@ -1,0 +1,124 @@
+.secao{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    max-width: 768px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 20px;
+    border-radius: 16px;
+    margin-top: 7em;
+}
+
+.div-form{
+    padding-left: 64px;
+    padding-right: 64px;
+}
+
+.login{
+    font-weight: 700;
+    font-size: 24px;
+    text-align: center;
+}
+
+.paragraph{
+    font-size: 20px;
+    margin-top: 16px;
+    text-align: center;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+.input-email{
+    width: 92%;
+    margin-top: 32px;
+    padding: 8px;
+    border: 1px solid black;
+    border-radius: 12px;
+    margin-right: 3px;
+}
+
+.div-password{
+    width: 100%;
+}
+
+
+.input-senha{
+    width: 92%;
+    padding: 8px;
+    border: 1px solid black;
+    border-radius: 12px;
+}
+
+.button{
+    background-color: #62554D;
+    color: white;
+    border-radius: 12px;
+    height: 35px;
+    width: 100%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+
+.palavra-separacao{
+    margin-top: 40px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.button-google{
+    margin-top: 20px;
+    border-width: 2px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+}
+
+.button-linkedin{
+    margin-top: 20px;
+    border-width: 2px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+}
+
+.btn-forget-register{
+    margin-top: 12px;
+    font-size: 12px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.button-forget{
+    margin: 8px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.button-register{
+    margin: 8px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
